@@ -1,33 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Vitor</title>
-</head>
-<body>
-    <nav class="navegar">
-        <ul class="menu">
-            <li><a href="#inicio">Início</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </nav>
+    <title>Portfólio | Vitor Gabriel</title>
+    <link rel="stylesheet" href="styles.css">
 
-    <main id="inicio" class="cabecalho">
-        <div>
-            <img src="imgs/vitor PERFIL 2.png" alt="foto do perfil">
+</head>
+
+<body>
+
+    <header>
+        <section class="imagem" id="img01">
+            <img src="imgs/vt.png" alt="">
             <h1>Vitor Gabriel</h1>
-            <p>Desenvolvedor Front End</p>
-        </div>
-    </main>
+            <p>Desenvolvedor Front-end | HTML & CSS</p>
+        </section>
+    </header>
 
     <section>
-        <h2>Sobre Mim</h2>
-        <div>
-            Olá, mundo! Estou evoluindo cada vez mais na criação de interfaces práticas, intuitivas e bonitas, usando minha criatividade e conhecimento para colocar em prática ideias com HTML, CSS e JavaScript. 
+
+        <h2 class="sm">Sobre mim</h2>
+        <div class="card">
+            <p>Buscando constantemente aprimorar minhas habilidades e crescer na área da programação, desenvolvendo
+                interfaces práticas, modernas e funcionais. Gosto de transformar ideias em soluções criativas utilizando
+                <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.
+                <br>
+                <div class="imgs">
+                <img src="imgs/html.png" alt="">
+                <img src="imgs/css.png" alt="">
+                <img src="imgs/js.png" alt="">
+
+            </div><br>
+                Sou apaixonado por tecnologia, especialmente pela programação, mas também tenho forte afinidade com
+                hardware. Tenho conhecimento prático em montagem e manutenção de computadores, desde a escolha dos
+                componentes até a montagem de máquinas personalizadas para diferentes finalidades, como uso doméstico,
+                profissional ou gamer..
+            </p>
+            
+        </div>
+
+        <h2>Projetos</h2>
+
+        <div class="card">
+            <h3>Landing Page – Grupo de Ofertas</h3>
+            <p>Página focada em conversão para tráfego pago, direcionando usuários para grupo de WhatsApp.</p>
+            <a class="btn" href="#">Ver projeto</a>
+        </div>
+
+        <div class="card">
+            <h3>Site Simples – Comércio Local</h3>
+            <p>Site institucional simples para pequenos negócios, com contato direto via WhatsApp.</p>
+            <a class="btn" href="#">Ver projeto</a>
+        </div>
+
+        <div class="card">
+            <h3>Landing Page – Serviços</h3>
+            <p>Página profissional para apresentação de serviços e geração de leads.</p>
+            <a class="btn" href="#">Ver projeto</a>
         </div>
     </section>
+
+    <footer>
+        <p>© 2026 - Vitor Gabriel</p>
+    </footer>
+
 </body>
+
 </html>
