@@ -17,7 +17,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background: linear-gradient(to top, #08090ff8 0%, #182c49 100%);
+    background: linear-gradient(to top, #0A0D10 0%, #182c49 100%);
     
 }
 
@@ -25,6 +25,17 @@ img {
     border-radius: 50%;
     width: 200px;
     height: 200px;
+}
+
+.car {
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    padding-bottom: 15px ;
+
+    /*display: block;
+    margin: 0 auto;*/
 }
 
 
@@ -69,7 +80,7 @@ header {
     font-size: 1.2rem;
     h1{
         font-family: "Press Start 2P", system-ui;
-        font-size: 1.7rem;
+        font-size: 1.9rem;
     }
     p{
         font-family: "Bungee", sans-serif;
@@ -84,11 +95,20 @@ section {
 }
 
 .card {
-    background: #b9c2ca;
+    background: #98bbda;
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, .08);
     margin-bottom: 20px;
+
+    h2{
+        color: #d6dae4;
+        text-align: center;
+        background: linear-gradient(to right, #98bbda 0%, #2d5379 50%, #98bbda 100%);
+    }
+    h3{
+        color: #020e30;
+    }
 }
 
 .card h3 {
@@ -98,12 +118,51 @@ section {
 .btn {
     display: inline-block;
     margin-top: 10px;
-    background: #2562d3;
+    background: #1b42a5;
     color: #fff;
     padding: 12px 25px;
     border-radius: 30px;
     text-decoration: none;
     font-weight: bold;
+}
+
+.btn:hover {
+    background: #c8e5ff;
+    transition: 0.2s;
+    color: #163991;
+}
+.ctt{
+    text-transform: uppercase;
+    text-align: center;
+    color: #e2e3e4;
+    font-family: "Anton SC", sans-serif;
+    margin-top: 40px;
+    color: #afcee7;
+}
+
+.bt {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.bnt {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.bnt img {
+    border-radius: 20%;
+    width: 70px;
+    height: 70px;
+}
+.bnt:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
 }
 
 footer {
